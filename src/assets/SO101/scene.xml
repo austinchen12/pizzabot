@@ -25,5 +25,48 @@
         <body name="dough" pos="0.4 0.0 0.02">
             <geom type="cylinder" size="0.18 0.003" rgba="0.9 0.85 0.7 1"/>
         </body>
+
+        <!-- Pepperoni bin (0.19m x 0.19m tray, ~4.5cm tall walls) -->
+        <body name="pepperoni_bin" pos="0.35 0.30 0.0">
+            <geom type="box" size="0.09 0.09 0.005" pos="0 0 0.005" rgba="0.65 0.45 0.25 1"/>
+            <geom type="box" size="0.09 0.005 0.02" pos="0  0.095 0.025" rgba="0.65 0.45 0.25 1"/>
+            <geom type="box" size="0.09 0.005 0.02" pos="0 -0.095 0.025" rgba="0.65 0.45 0.25 1"/>
+            <geom type="box" size="0.005 0.09 0.02" pos="-0.095 0 0.025" rgba="0.65 0.45 0.25 1"/>
+            <geom type="box" size="0.005 0.09 0.02" pos=" 0.095 0 0.025" rgba="0.65 0.45 0.25 1"/>
+        </body>
+
+        <!-- Pepperoni slices: radius 2.5cm, 6mm thick, stacked in bin center -->
+        <body name="pepperoni_1" pos="0.35 0.30 0.013">
+            <geom type="cylinder" size="0.025 0.003" rgba="0.72 0.12 0.08 1"/>
+        </body>
+        <body name="pepperoni_2" pos="0.35 0.30 0.019">
+            <geom type="cylinder" size="0.025 0.003" rgba="0.72 0.12 0.08 1"/>
+        </body>
+        <body name="pepperoni_3" pos="0.35 0.30 0.025">
+            <geom type="cylinder" size="0.025 0.003" rgba="0.72 0.12 0.08 1"/>
+        </body>
+
+        <!-- Mozzarella bin (0.19m x 0.19m tray, ~4.5cm tall walls) -->
+        <body name="mozzarella_bin" pos="0.35 -0.30 0.0">
+            <geom type="box" size="0.09 0.09 0.005" pos="0 0 0.005" rgba="0.65 0.45 0.25 1"/>
+            <geom type="box" size="0.09 0.005 0.02" pos="0  0.095 0.025" rgba="0.65 0.45 0.25 1"/>
+            <geom type="box" size="0.09 0.005 0.02" pos="0 -0.095 0.025" rgba="0.65 0.45 0.25 1"/>
+            <geom type="box" size="0.005 0.09 0.02" pos="-0.095 0 0.025" rgba="0.65 0.45 0.25 1"/>
+            <geom type="box" size="0.005 0.09 0.02" pos=" 0.095 0 0.025" rgba="0.65 0.45 0.25 1"/>
+        </body>
+
+        <!-- Mozzarella balls: radius 2cm, 2x2 arrangement in bin -->
+        <body name="mozzarella_1" pos="0.375 -0.275 0.030">
+            <geom type="sphere" size="0.02" rgba="0.95 0.93 0.88 1"/>
+        </body>
+        <body name="mozzarella_2" pos="0.325 -0.275 0.030">
+            <geom type="sphere" size="0.02" rgba="0.95 0.93 0.88 1"/>
+        </body>
+        <body name="mozzarella_3" pos="0.375 -0.325 0.030">
+            <geom type="sphere" size="0.02" rgba="0.95 0.93 0.88 1"/>
+        </body>
+        <body name="mozzarella_4" pos="0.325 -0.325 0.030">
+            <geom type="sphere" size="0.02" rgba="0.95 0.93 0.88 1"/>
+        </body>
     </worldbody>
 </mujoco>
