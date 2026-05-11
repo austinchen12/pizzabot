@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pizza-robot"
+version = "0.1.0"
+dependencies = [
+    "lerobot",
+    "mujoco",
+    "gymnasium",
+    "torch",
+    "torchvision",
+    "imageio[ffmpeg]",
+    "numpy",
+    "wandb",
+    "huggingface_hub",
+]
+
+[tool.setuptools.packages.find]
+where = ["."]

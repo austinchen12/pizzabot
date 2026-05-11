@@ -1,0 +1,6 @@
+pyproject.toml
+pizzabot.egg-info/PKG-INFO
+pizzabot.egg-info/SOURCES.txt
+pizzabot.egg-info/dependency_links.txt
+pizzabot.egg-info/requires.txt
+pizzabot.egg-info/top_level.txt
